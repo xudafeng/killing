@@ -1,0 +1,24 @@
+{
+  "name": "killing",
+  "version": "0.0.1",
+  "description": "Kill Process",
+  "bin": {
+    "killing": "./bin/killing"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/killing.git"
+  },
+  "dependencies": {
+  },
+  "keywords": ["kill","shell"],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/xudafeng/killing",
+  "author": "xudafeng",
+  "email": "xudafeng[at]126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
