@@ -1,7 +1,7 @@
 killing
 ===
 
-by xdf
+kill process
 
 ## Installment
 
@@ -13,9 +13,18 @@ $ sudo npm install killing -g
 
 ```bash
 $ killing firefox
+$ killing Evernote
+$ killing MacVim
+$ killing Qt
+$ killing Terminal
+
+……
+
+
 $ killing httpd
 $ sudo npm install startserver -g
 $ startserver
+
 $ echo haha~
 ```
 

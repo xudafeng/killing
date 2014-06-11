@@ -1,6 +1,6 @@
 {
   "name": "killing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kill Process",
   "bin": {
     "killing": "./bin/killing"
@@ -11,6 +11,7 @@
     "url": "git://github.com/xudafeng/killing.git"
   },
   "dependencies": {
+    "colorx": "*"
   },
   "keywords": ["kill","shell"],
   "devDependencies": {
