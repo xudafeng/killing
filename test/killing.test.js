@@ -11,9 +11,9 @@
  *
  * ================================================================ */
 
-"use strict";
+'use strict';
 
-var killing = require('../');
+var killing = require('..');
 
-describe('', function(){
+describe('test', function() {
 });
