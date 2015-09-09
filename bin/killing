@@ -14,4 +14,16 @@
 
 'use strict';
 
-var killing = require('../lib');
+var killing = require('..');
+
+var program = require('commander');
+
+program.parse(process.argv);
+
+if (program.args[0]) {
+  try {
+    killing(program.args[0]);
+  } catch (e) {
+    console.log(e.stack);
+  }
+}

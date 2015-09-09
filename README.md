@@ -1,31 +1,25 @@
 killing
-===
+=======
 
 kill process
 
 ## Installment
 
 ```bash
-$ sudo npm install killing -g
+$ npm i killing -g
 ```
 
 ## Quick Start
 
 ```bash
-$ killing firefox
 $ killing Evernote
 $ killing MacVim
 $ killing Qt
 $ killing Terminal
 
-……
 
+$ killing nginx
 
-$ killing httpd
-$ sudo npm install startserver -g
-$ startserver
-
-$ echo haha~
 ```
 
 ## License
