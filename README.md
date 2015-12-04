@@ -1,7 +1,6 @@
-killing
-=======
+# killing
 
-kill process
+> kill process
 
 ## Installment
 

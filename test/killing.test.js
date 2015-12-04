@@ -14,6 +14,8 @@
 'use strict';
 
 var killing = require('..');
+var retry = require('../lib/retry');
 
 describe('test', function() {
+
 });
