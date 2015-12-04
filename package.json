@@ -1,6 +1,6 @@
 {
   "name": "killing",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Kill Process",
   "bin": {
     "killing": "./bin/killing"
