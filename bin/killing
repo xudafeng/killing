@@ -22,7 +22,13 @@ program.parse(process.argv);
 
 if (program.args[0]) {
   try {
-    killing(program.args[0]);
+    killing(program.args[0], function(list) {
+      if (list.length) {
+        console.log('PID %s has been killed', list.join(', '));
+      } else {
+        console.log('no kill');
+      }
+    });
   } catch (e) {
     console.log(e.stack);
   }
